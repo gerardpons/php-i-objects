@@ -23,7 +23,7 @@
     class Triangle extends Shape {
 
         public function area() {
-            return $this->width * $this->height;
+            return ($this->width * $this->height) / 2;
         }
 
     }
